@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bright_foreground_material_dark">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/AppnameColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Email"
+        android:id="@+id/textView"
+        android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/EmailEditText"
+        android:inputType="textEmailAddress"
+        android:layout_margin="@dimen/abc_edit_text_inset_top_material" />
+    <TextView android:text="@string/EmailFormat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:id="@+id/EmailFormat2"
+        android:textIsSelectable="false"
+        android:textColor="@color/error"
+        android:visibility="gone"
+        android:layout_margin="@dimen/abc_edit_text_inset_top_material" />
+    <TextView android:text="@string/EmailRequired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:id="@+id/EmailRequired2"
+        android:textIsSelectable="false"
+        android:textColor="@color/error"
+        android:visibility="gone"
+        android:layout_margin="@dimen/abc_edit_text_inset_top_material" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/AppnameColor"
+        android:layout_marginTop="@dimen/abc_button_inset_vertical_material" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:id="@+id/cancel"
+            android:layout_weight="1"
+            android:background="@color/bright_foreground_material_dark" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/AppnameColor" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:id="@+id/ok"
+            android:layout_weight="1"
+            android:background="@color/bright_foreground_material_dark" />
+
+    </TableRow>
+
+</LinearLayout>

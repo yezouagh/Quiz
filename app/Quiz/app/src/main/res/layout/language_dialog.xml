@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bright_foreground_material_dark">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/AppnameColor"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Radio_group"
+        >
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/English"
+            android:layout_gravity="end"
+            android:id="@+id/English_radioButton"
+            android:shadowColor="@color/AppnameColor"
+            android:textColorHint="@color/AppnameColor"
+            android:textColorLink="@color/AppnameColor"
+            android:textColorHighlight="@color/AppnameColor"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"
+            android:textColor="@color/bright_foreground_material_light"
+            android:textSize="@dimen/InputSize" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/French"
+            android:id="@+id/French_radioButton"
+            android:shadowColor="@color/AppnameColor"
+            android:textColorHint="@color/AppnameColor"
+            android:textColorLink="@color/AppnameColor"
+            android:textColorHighlight="@color/AppnameColor"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:typeface="monospace"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"
+            android:textColor="@color/bright_foreground_material_light"
+            android:textSize="@dimen/InputSize" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Arabic"
+            android:layout_gravity="end"
+            android:id="@+id/Arabic_radioButton"
+            android:shadowColor="@color/AppnameColor"
+            android:textColorHint="@color/AppnameColor"
+            android:textColorLink="@color/AppnameColor"
+            android:textColorHighlight="@color/AppnameColor"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"
+            android:textColor="@color/bright_foreground_material_light"
+            android:textSize="@dimen/InputSize" />
+    </RadioGroup>
+
+</LinearLayout>

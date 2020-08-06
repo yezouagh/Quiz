@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name" translatable="false">Quiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="None">None</string>
+    <string name="ereur">Error : </string>
+    <string name="Themes">Themes</string>
+    <string name="ok">OK</string>
+    <string name="Loggedin">Thank you for logging in.</string>
+    <string name="sorry"> ,Sorry.</string>
+    <string name="RegistrationFailed">Your registration has failed ,Sorry.</string>
+    <string name="congrats"> You are successfully registered,Congratulations.</string>
+    <string name="connexionLost">Unavailable network connection ,Please check your connection status.</string>
+    <string name="Logo">Logo</string>
+    <string name="login">Login</string>
+    <string name="Register">Register</string>
+    <string name="FullName">Full Name</string>
+    <string name="Pass">Password</string>
+    <string name="FullNameRequired">The full Name is required!</string>
+    <string name="BirthDay">Birthday</string>
+    <string name="Email">E-mail</string>
+    <string name="EmailRequired">The e-mail is required!</string>
+    <string name="EmailFormat">This is not a valid e-mail!</string>
+    <string name="PassRequired">The password is required (More than 5 Chars)!</string>
+    <string name="Error">E-mail or password are not correct!</string>
+    <string name="processing">Processing</string>
+    <string name="Please">Please wait ...</string>
+    <string name="close">Close</string>
+    <string name="Logout">Logout</string>
+    <string name="PersonalizeYourQuiz">Personalize your Quiz</string>
+    <string name="nmbr">Set the number of questions</string>
+    <string name="Sthemes">Selected Themes are :</string>
+    <string name="Go">Start</string>
+    <string name="Acount">Account</string>
+    <string name="Language">Language</string>
+    <string name="English">English</string>
+    <string name="French">French</string>
+    <string name="Arabic">Arabic</string>
+    <string name="available">Available : </string>
+    <string name="general">General</string>
+    <string name="userinfo">User\'s info</string>
+    <string name="Unavailable">Unavailable</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_language">Change the language</string>
+    <string name="ForgotPass">Forgot Password ?</string>
+    <string name="Done">Save changes</string>
+    <string name="ChangePass">Change Password</string>
+    <string name="ChangeFullName">Change Full Name</string>
+    <string name="ChangeEmail">Change E-mail</string>
+    <string name="ChangeBirthday">Change Birthday</string>
+    <string name="PlaesePass">Please Enter Your Password</string>
+    <string name="NewPass">New Password</string>
+    <string name="NewPassIsRequired">The New Password is required (More than 5 Chars)!</string>
+    <string name="PassIsIncorrect">The Password is Incorrect!</string>
+    <string name="Updated">Your Data is Updated ! Thank you. </string>
+    <string name="title_activity_quiz_challenge" translatable="false">Quiz</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="TimeLeft">Time Left</string>
+    <string name="qs">Question N°  </string>
+    <string name="Review">Review later</string>
+    <string name="A">A.</string>
+    <string name="B">B.</string>
+    <string name="C">C.</string>
+    <string name="D">D.</string>
+    <string name="CountRequired">You have to determine the number of questions required.</string>
+    <string name="CountLimit">The number of questions required supposed to be greater than 1
+             and smaller than the available number.
+    </string>
+    <string name="ChoozThemes">Please choose at least one theme.</string>
+    <string name="FirstOne">This is the First question.</string>
+    <string name="LastOne">This is the last question.</string>
+    <string name="Confirm_Back_TITLE">Confirmation</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Finish">Finished</string>
+    <string name="Confirm_Account_Back">If you Leave Now, your Updated data will be lost.Do you
+        really want to quit?</string>
+    <string name="Confirm_Quiz_Back">If you Leave Now, your score will be lost.Do you really want to quit?</string>
+
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-7404623512174683/4137682458</string>
+    <string name="banner_ad_unit_id2" translatable="false">ca-app-pub-7404623512174683/6936371652</string>
+    <string name="scoreis">Your score is :</string>
+    <string name="unanswered">Unanswered questions  :</string>
+    <string name="nbwrong">Wrong answers : </string>
+    <string name="lostScore">You lost your score !</string>
+    <string name="updating_score_error">Unfortunately, we couldn\'t store your score!</string>
+    <string name="time_up">Time\'s up !</string>
+    <string name="finish_confirm">Do you really want to finish now?</string>
+    <string name="server_error">Sorry ,we couldn\'t connect to the server! Please try again.</string>
+</resources>

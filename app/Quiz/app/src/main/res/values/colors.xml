@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="AppnameColor">#00BFFF</color>
+    <color name="error">#F00</color>
+    <color name="answered">#ff4eff26</color>
+    <color name="review">#ffffe732</color>
+</resources>

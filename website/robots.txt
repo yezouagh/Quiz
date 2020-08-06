@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /$
+Allow: /landingPage.html
+Allow: /index.html
+Allow: /robots.txt
+Allow: /sitemap.xml
+Allow: /google38041a3eb3a97e96.html
+Disallow: /

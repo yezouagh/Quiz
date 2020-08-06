@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2006-09-16T00:00:00Z</Created>
+  <LastSaved>2015-08-11T22:57:07Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8010</WindowHeight>
+  <WindowWidth>14805</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>105</WindowTopY>
+  <TabRatio>228</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="16" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#00B0F0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s18">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Feuil1">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="32" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="29.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="216.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="128.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="145.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="102"/>
+   <Column ss:Width="274.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="66.75"/>
+   <Column ss:Width="36.75"/>
+   <Column ss:Width="24.75"/>
+   <Row ss:Height="21">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Qid</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Question</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">CorrectAnswer</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">WrongAnswer1</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">WrongAnswer2</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">WrongAnswer3</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">ThemeName</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Lang</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Dif</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Astérix le…?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Gaulois</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Gallois</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Viking</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Romain</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Préconiser signifie :</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Prôner</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Préserver</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Prévoir</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Prétendre</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Où se lève le soleil?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">À l'est</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Au sud</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">À l'ouest</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Au nord</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Dans quel jeu pour enfant , doit on généralement sauter à cloche-pied?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">La Marelle</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Les Charades</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Loup Glacé</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Jacques a dit</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Flouer signifie :</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Tromper</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Remettre à flot</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Rendre floue une image</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Naviguer près des côtes</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Dans la plupart des pays Américains , quel est l'acte le plus grave?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Meurtre</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Détournement de fonds</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Outrage à agent</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Excès de vitesse</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Quel est l'ancien nom de France 2?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Antenne 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Numéro 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">La 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">2éme Chaîne</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Histoire</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Caution signifie :</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Garantie</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Crédit</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Attention</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Circonspection</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">En 2011 ,qui est le président de la république Française?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Nicolas Sarkosy</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Barack Obama</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Vercingétorix</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Louis XV</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Histoire</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Popeye mangeait des...</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Epinards</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Espadrilles</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Etourneaux</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Eperviers</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Que fête-t-on le 1er mai?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Le travail</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Les récoltes</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">La lune</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Le printemps</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Charles Darwin était...</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Naturaliste</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Naturiste</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Dramaturge</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Homme d'état</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Avec qui associe-t-on la pomme?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Issac Newton</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Albert Einstein</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Nicolas Copernic</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Igor Bogdanov</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Histoire</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Quelle est la capital de Japon?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Tokyo</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Venise</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Tombouctou</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">En France, le nombre de mandats présidentiels successifs est :</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Limité à 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Limité à 3</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Limité à 1</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Limité</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Gandhi est associé avec quel pays?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Inde</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Tibet</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Chine</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Japon</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">La rotule est la partie de quel endroit du corps humain?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Jambes</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Bras</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Torse</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Nez</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Que faut-il ajouter au bleu pour obtenir du vert?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Jaune</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Violet</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Orange</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Rouge</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Sur quel continent trouve-t-on le Brésil?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Amérique</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Afrique</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Océanie</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Europe</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Quel est le pays d'origine du football?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Angleterre</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">France</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Allemagne</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Brésil</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Une balafre est :</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Une blessure de forme allongée</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Un échec</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Un bateau de pêcheur</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Une gifle</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Culture générale</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qui a inventé la jupe-culotte?</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Paul Poiret</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">André Courrèges</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Pierre Balmain </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Pierre Martine</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Histoire</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">La coupe en biais a été introduire par…</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Madeleine Vionnet</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Jacques Doucet</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Jeanne Lanvin</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Karle loudevine</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Histoire</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Elle est célèbre pour ses dessous chics et se nomme... </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Chantal Thomass</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Chantal Thommas</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Chantal Thomas</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Chantal Thommass</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Histoire</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Un très chic magazine américain a célébré la mode pendant des décennies: </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Harper's Bazaar</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Harpeer's Bazar </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Harpers Bazzar</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Harpers Bazar</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Histoire</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">&quot;Alicula&quot; est le nom…</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">d'une pèlerine portée par les Romaines sous l'Empire</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">une broderie type macramé </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">un pendentif en camé </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">il n'y a pas un tel nom</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Histoire</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Sous la Révolution, la &quot;carmagnole&quot; était... </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">une veste courte portée par les gens du peuple</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">la culotte blanche et étroite des aristocrates</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">une vêtement long porté par les gens du peuple</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">la chaussure à boucle des membres du clergé </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Histoire</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">La &quot;garance&quot;, c'est... </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">une plante tinctoriale dont la fleur fut chère à Arletty</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">le nom du tissu dans lequel étaient coupés les pantalons des poilus</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">il n'y a pas un tel nom</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">une passementerie agrémentant les chapeaux d'homme </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Histoire</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Jadis, les manches &quot;en amadis&quot; étaient... </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">collantes, se prolongeant sur le dessus de la main</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">larges, avec le coude tombant jusqu'aux genoux</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">courtes et remontées en fronces aux épaules</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Histoire</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Le &quot;passement&quot;, c' est…</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">le premier nom des dentelles, qui a donné &quot;passementerie&quot;</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">le nom du lacet des corsets</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">le bas des robes longues, sous lequel apparaît le soulier </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">il n'a pas de sens</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Histoire</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">A la ville et à l'écran, l'actrice Audrey Hepburn resta toute sa vie fidèle au couturier…</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Hubert de Givenchy</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Paul Poiret</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Mariano Fortuny</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Jules Badin</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Histoire</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">fr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,275 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent"
+              tools:context="ezouagh.quiz.quiz_challenge$PlaceholderFragment">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/AppnameColor"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/abc_action_bar_overflow_padding_start_material"
+        android:paddingBottom="@dimen/abc_action_bar_default_padding_material">
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ReviewcheckBox"
+            android:textSize="@dimen/InputSize"
+            android:layout_marginRight="@dimen/abc_action_bar_overflow_padding_start_material"
+            android:layout_marginLeft="@dimen/abc_action_bar_overflow_padding_start_material"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Review"
+            android:id="@+id/ReviewtextView"
+            android:layout_weight="1"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/InputSize"
+            android:singleLine="true"
+            android:layout_marginRight="@dimen/abc_action_bar_overflow_padding_start_material"
+            android:paddingTop="@dimen/abc_action_bar_default_padding_material"
+            android:paddingBottom="@dimen/abc_action_bar_default_padding_material"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/AppnameColor"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="@dimen/abc_action_bar_default_padding_material"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingLeft="@dimen/notification_subtext_size"
+        android:paddingRight="@dimen/notification_subtext_size"
+        android:paddingTop="@dimen/abc_action_bar_overflow_padding_start_material"
+        android:paddingBottom="@dimen/abc_control_corner_material"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_weight="1">
+        <ImageButton
+            android:layout_width="@dimen/abc_action_bar_stacked_max_height"
+            android:layout_height="@dimen/abc_action_bar_progress_bar_size"
+            android:id="@+id/ButtonPrev"
+            android:contentDescription="@string/title_activity_quiz_challenge"
+            android:layout_gravity="left"
+            android:src="@drawable/ic_prev"
+            android:scaleType="fitCenter"
+            android:background="#00404040"
+            android:clickable="true"
+            android:focusable="true"
+            android:adjustViewBounds="false"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/ButtonFinish"
+                android:contentDescription="@string/title_activity_quiz_challenge"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:background="@drawable/start_click"
+                android:clickable="true"
+                android:focusable="true"
+                android:adjustViewBounds="false"
+                android:layout_weight="1"
+                android:text="@string/Finish"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="@dimen/abc_action_bar_stacked_max_height"
+                android:layout_height="@dimen/abc_action_bar_progress_bar_size"
+                android:id="@+id/ButtonNext"
+                android:contentDescription="@string/title_activity_quiz_challenge"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_next"
+                android:scaleType="fitCenter"
+                android:background="#00404040"
+                android:clickable="true"
+                android:focusable="true"
+                android:adjustViewBounds="false"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollable1"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/abc_action_bar_overflow_padding_end_material"
+            android:paddingRight="@dimen/abc_action_bar_overflow_padding_end_material"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            tools:context="ezouagh.quiz.Account"
+            android:weightSum="1"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/abc_control_padding_material"
+                android:layout_marginRight="@dimen/abc_control_padding_material"
+                android:layout_marginTop="@dimen/abc_dialog_list_padding_vertical_material"
+                android:background="@drawable/rounded_withborder_layout"
+                android:paddingLeft="@dimen/abc_action_bar_overflow_padding_start_material"
+                android:paddingRight="@dimen/abc_action_bar_overflow_padding_start_material"
+                android:paddingTop="@dimen/abc_control_inset_material"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+                    android:id="@+id/QuestionTXT"
+                    android:layout_marginLeft="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/abc_text_size_menu_material"
+                    android:typeface="monospace"
+                    android:singleLine="false"
+                    android:layout_marginRight="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginTop="@dimen/abc_dialog_list_padding_vertical_material"
+                    android:layout_marginBottom="@dimen/abc_action_bar_overflow_padding_end_material"/>
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup"
+                android:baselineAligned="true"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/rounded_withborder_layout">
+
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/radiobtn"
+                    android:button="@null"
+                    android:text="@string/ChangeBirthday"
+                    android:textColor="@drawable/radiobtntxt"
+                    android:textSize="15sp"
+                    android:id="@+id/AnswerATXT"
+                    android:layout_marginLeft="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginStart="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginRight="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginEnd="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginBottom="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:singleLine="false"
+                    android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:checked="false"
+                    android:padding="@dimen/notification_subtext_size"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/radiobtn"
+                    android:button="@null"
+                    android:text="@string/ChangeBirthday"
+                    android:textColor="@drawable/radiobtntxt"
+                    android:textSize="15sp"
+                    android:id="@+id/AnswerBTXT"
+                    android:layout_marginLeft="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginStart="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginRight="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginEnd="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginBottom="@dimen/abc_dialog_list_padding_vertical_material"
+                    android:singleLine="false"
+                    android:layout_marginTop="@dimen/abc_dialog_list_padding_vertical_material"
+                    android:checked="false"
+                    android:padding="@dimen/notification_subtext_size"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/radiobtn"
+                    android:button="@null"
+                    android:text="@string/ChangeBirthday"
+                    android:textColor="@drawable/radiobtntxt"
+                    android:textSize="15sp"
+                    android:id="@+id/AnswerCTXT"
+                    android:layout_marginLeft="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginStart="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginRight="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginEnd="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginBottom="@dimen/abc_dialog_list_padding_vertical_material"
+                    android:singleLine="false"
+                    android:layout_marginTop="@dimen/abc_dialog_list_padding_vertical_material"
+                    android:checked="false"
+                    android:padding="@dimen/notification_subtext_size"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/radiobtn"
+                    android:button="@null"
+                    android:text="@string/ChangeBirthday"
+                    android:textColor="@drawable/radiobtntxt"
+                    android:textSize="15sp"
+                    android:id="@+id/AnswerDTXT"
+                    android:layout_marginLeft="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginStart="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginRight="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginEnd="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:layout_marginBottom="@dimen/abc_action_bar_overflow_padding_end_material"
+                    android:singleLine="false"
+                    android:layout_marginTop="@dimen/abc_dialog_list_padding_vertical_material"
+                    android:checked="false"
+                    android:padding="@dimen/notification_subtext_size"/>
+
+        </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+Website Details
+
+Access your Website at	http://challengequiz.ml
+Access your Website with www.	http://www.challengequiz.ml
+Preview your website at	Preview
+Website IP Address	93.188.160.105
+Server Name	server25.1freehosting.com
+E-mail Details
+
+Webmail Address	http://webmail.1freehosting.com
+Login Username	User E-mail Address
+Password	User E-mail Password
+POP3/IMAP Host	mx1.1freehosting.com
+POP3 Port	110
+IMAP Port	143
+SMTP Host	mx1.1freehosting.com
+SMTP Port	2525
+Manage E-mail Accounts	Manage E-mails
+File Transfer Details
+
+FTP IP	93.188.160.105
+FTP Hostname	challengequiz.ml
+FTP Username	u612369946
+FTP Password	••••••••••
+FTP Port	21
+Folder to Upload Files	public_html
+Forgot FTP Password?	Change Account Password
+Recommended FTP Clients	SmartFTP or FileZilla
+Website Builder Details
+
+Select website template at	http://builder.1freehosting.com
+Login Domain	challengequiz.ml
+Username	u612369946
+Password	••••••••••

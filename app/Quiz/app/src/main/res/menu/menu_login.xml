@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ezouagh.quiz.Login">
+      <item android:id="@+id/action_Register" android:title="@string/Register"
+        android:orderInCategory="1"
+          app:showAsAction="never" />
+    <item android:id="@+id/action_setting" android:title="@string/action_settings"
+        android:orderInCategory="2" app:showAsAction="never" />
+    <item android:id="@+id/action_close" android:title="@string/close"
+        android:orderInCategory="3" app:showAsAction="never" />
+</menu>
